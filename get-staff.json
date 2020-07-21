@@ -1,3 +1,52 @@
 {
-  "code":200
+    "status": "success",
+    "message": "Request is successful.",
+    "code": 200,
+    "active": {
+        "tab_title": "Active",
+        "contacts": [
+            {
+                "id": "14cccb1f62ca4a71b184b370a2f11e71",
+                "is_editable": true,
+                "collapsed_permissions_title": "2 permissions",
+                "expanded_permissions": [
+                    "p1",
+                    "p2"
+                ]
+            },
+            {
+                "id": "14cccb1f62cb4a71b184b370a2f11e71",
+                "is_editable": true,
+                "collapsed_permissions_title": "2 permissions",
+                "expanded_permissions": [
+                    "p2",
+                    "user_management"
+                ]
+            }
+        ]
+    },
+    "invited": {
+        "tab_title": "Invited"
+    },
+    "expired": {
+        "tab_title": "Expired invites",
+        "contacts": [
+            {
+                "id": "14cccb1f62ca5a61b184b370a2f11e71",
+                "name": "Abhishek",
+                "is_editable": true,
+                "status": "Invite expired",
+                "status_description": "The invite will get auto-deleted in 7 days",
+                "primary_action_data": {
+                    "action_id": 1,
+                    "action_text": "Delete invite"
+                },
+                "secondary_action_data": {
+                    "action_id": 2,
+                    "action_text": "Resend invite"
+                }
+            }
+        ]
+    },
+    "toolbar_title": "Manage your staff"
 }
